@@ -2,7 +2,103 @@
   text-align: center;
 }
 
-.header{
+.header {
   text-align: center;
   box-shadow: 0px 0px 10px 0px #888888;
+}
+
+a {
+  color: #343a3f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.launchpadCard:hover {
+  background: #28a745;
+  color: whitesmoke;
+  transition: 0.1s ease-in;
+}
+
+.missionCard:hover {
+  background: #17a2b8;
+  color: whitesmoke;
+  transition: 0.1s ease-in;
+}
+
+.payloadCard:hover {
+  background: #343a40;
+  color: whitesmoke;
+  transition: 0.1s ease-in;
+}
+
+.lat-long-container {
+  font-size: 0.8em;
+}
+
+.status-container {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.card-header {
+  position: relative;
+}
+
+.active {
+  background: #28a745;
+}
+
+.retired {
+  background: #dc3545;
+}
+
+.underconstruction {
+  background: #ffc107;
+}
+
+.payload-info-container span {
+  padding: 0 1em;
+}
+
+.payload-card:hover {
+  background: #f1f1f1;
+  transition: 0.1s ease-in;
+}
+
+.payload-details-container{
+  padding: 2rem 2rem;
+}
+
+.payload-details-container div{
+  padding: 0.5em 0em;
+}
+
+.launchpad-header{
+  display: flex;
+  align-items: center;
+  padding: 0.5em 1em;
+}
+
+.flex-auto{
+  flex: auto
+}
+
+.cap-text{
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 700px) {
+  .status-container {
+    bottom: 0.5em;
+    right: 0.5em;
+    align-items: flex-end;
+    top: unset;
+  }
 }
